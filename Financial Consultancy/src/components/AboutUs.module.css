@@ -1,0 +1,200 @@
+.frameChild {
+  width: 14px;
+  position: relative;
+  height: 14px;
+}
+.aboutUs1 {
+  position: relative;
+  letter-spacing: 0.33em;
+}
+.polygonParent {
+  border-radius: var(--br-13xl);
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.chosenByThousands,
+.findOutWhy {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 115%;
+}
+.chosenByThousands {
+  font-size: var(--font-size-lg);
+  line-height: 135%;
+  font-weight: 500;
+  color: var(--color-gray-700);
+}
+.findOutWhyPeopleIsTheGoParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-satoshi);
+}
+.findOutWhyPeopleIsTheGoParent,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameGroup {
+  width: 699px;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: space-between;
+  z-index: 1;
+}
+.frameItem,
+.maskGroupIcon {
+  position: absolute;
+  left: -13.7px;
+  width: 492.8px;
+}
+.frameItem {
+  top: 134.7px;
+  border-radius: var(--br-30xl-9);
+  height: 359.3px;
+  object-fit: contain;
+}
+.maskGroupIcon {
+  top: -103.5px;
+  height: 597.5px;
+}
+.emojiEventsIcon {
+  width: 69.9px;
+  position: relative;
+  height: 69.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.experiencesIcon,
+.yearIcon {
+  width: 68.1px;
+  position: relative;
+  height: 13px;
+}
+.experiencesIcon {
+  width: 89.8px;
+  height: 16.3px;
+}
+.emojiEventsParent,
+.yearParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.emojiEventsParent {
+  position: absolute;
+  top: 0.6px;
+  left: 387.3px;
+  box-shadow: 0 57.4px 16.22px transparent,
+    0 37.4px 14.97px rgba(176, 176, 176, 0.01),
+    0 21.2px 12.47px rgba(176, 176, 176, 0.05),
+    0 8.7px 8.73px rgba(176, 176, 176, 0.09),
+    0 2.5px 4.99px rgba(176, 176, 176, 0.1), 0 0 0 rgba(176, 176, 176, 0.1);
+  border-radius: 29.94px;
+  background-color: var(--ffffff);
+  border: 1.2px solid var(--color-gray-500);
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.accountCircleIcon {
+  width: 62.4px;
+  position: relative;
+  height: 62.4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ceoVeeniceIcon,
+.johnJamesBond {
+  width: 164.4px;
+  position: relative;
+  height: 15.1px;
+}
+.ceoVeeniceIcon {
+  width: 102.4px;
+  height: 12.9px;
+}
+.accountCircleParent,
+.johnJamesBondParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.accountCircleParent {
+  position: absolute;
+  top: 358px;
+  left: -49.9px;
+  box-shadow: 67.4px 72.4px 27.44px transparent,
+    43.7px 46.2px 24.95px rgba(0, 0, 0, 0.03),
+    24.9px 26.2px 21.21px rgba(0, 0, 0, 0.1),
+    11.2px 11.2px 16.22px rgba(0, 0, 0, 0.17),
+    2.5px 2.5px 8.73px rgba(0, 0, 0, 0.2), 0 0 0 rgba(0, 0, 0, 0.2);
+  border-radius: 59.88px;
+  background-color: var(--ffffff);
+  border: 1.2px solid var(--color-gray-500);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-20xl-9) var(--padding-3xs)
+    var(--padding-3xs);
+}
+.vectorParent {
+  width: 479px;
+  position: relative;
+  height: 494px;
+  z-index: 2;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.aboutUs,
+.paragraphParent,
+.value {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraphParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-13xl);
+}
+.aboutUs,
+.value {
+  flex-direction: column;
+}
+.value {
+  width: 1200px;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-satoshi);
+}
+.aboutUs {
+  background-color: var(--stone-900);
+  overflow: hidden;
+  padding: var(--padding-121xl) var(--padding-101xl);
+  gap: var(--gap-77xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--ffffff);
+  font-family: var(--body-regular);
+}

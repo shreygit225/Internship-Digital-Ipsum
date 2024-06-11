@@ -1,0 +1,171 @@
+.frameChild {
+  width: 14px;
+  position: relative;
+  height: 14px;
+}
+.ourValue {
+  position: relative;
+  letter-spacing: 0.33em;
+}
+.polygonParent {
+  border-radius: var(--br-13xl);
+  background-color: var(--color-gray-900);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.peopleIsThe {
+  width: 740px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 115%;
+  display: inline-block;
+}
+.peopleIsTheWorldsLargestWrapper,
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.peopleIsTheWorldsLargestWrapper {
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  font-family: var(--font-satoshi);
+}
+.title {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.b,
+.companyBranchesIn {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+}
+.companyBranchesIn {
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  color: var(--color-gray-100);
+}
+.parent {
+  width: 310px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.component2Child {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--blue-600);
+  width: 313px;
+  height: 193px;
+}
+.component2Inner,
+.component2Item,
+.frameIcon {
+  position: absolute;
+  top: 92.5px;
+  left: 169.5px;
+  border-radius: var(--br-4xl);
+  width: 152.3px;
+  height: 152.3px;
+  object-fit: contain;
+}
+.component2Inner,
+.frameIcon {
+  top: 77.4px;
+  left: 93.4px;
+  width: 143.8px;
+  height: 143.8px;
+}
+.frameIcon {
+  top: 12.7px;
+  left: -12.3px;
+  border-radius: var(--br-13xl);
+  width: 168.2px;
+  height: 168.2px;
+}
+.component2 {
+  width: 313px;
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameGroup {
+  box-shadow: 0 20px 36px rgba(75, 75, 75, 0.15);
+  border-radius: var(--br-5xl);
+  background-color: var(--ffffff);
+  border: 1.5px solid var(--color-gray-600);
+  box-sizing: border-box;
+  height: 466px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-13xl);
+}
+.component2Child1,
+.component2Child2,
+.component2Child3 {
+  position: absolute;
+  top: 95px;
+  left: 153px;
+  border-radius: 89.01px;
+  width: 169.2px;
+  height: 169.2px;
+  object-fit: contain;
+}
+.component2Child2,
+.component2Child3 {
+  top: 10px;
+  left: 85px;
+  width: 160.6px;
+  height: 160.6px;
+}
+.component2Child3 {
+  top: 77px;
+  left: -25px;
+  width: 177.6px;
+  height: 177.6px;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  z-index: 2;
+  font-size: var(--font-size-53xl);
+  color: var(--lime-600);
+  font-family: var(--font-satoshi);
+}
+.valueCompany {
+  width: 1440px;
+  background-color: var(--color-dodgerblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-121xl) var(--padding-101xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-77xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--ffffff);
+  font-family: var(--body-regular);
+}

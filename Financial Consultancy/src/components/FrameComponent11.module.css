@@ -1,0 +1,105 @@
+.frameChild {
+  width: 14px;
+  position: relative;
+  height: 14px;
+}
+.testimonials {
+  position: relative;
+  letter-spacing: 0.33em;
+}
+.polygonParent {
+  border-radius: var(--br-13xl);
+  background-color: var(--color-gray-900);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.buildingTrustAnd,
+.hearWhatOur {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.hearWhatOur {
+  width: 621px;
+  line-height: 115%;
+  display: inline-block;
+}
+.buildingTrustAnd {
+  align-self: stretch;
+  font-size: var(--font-size-lg);
+  line-height: 135%;
+  color: var(--color-gray-700);
+}
+.frameGroup,
+.hearWhatOurClientsHaveToParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.hearWhatOurClientsHaveToParent {
+  justify-content: flex-end;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-satoshi);
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameItem {
+  position: absolute;
+  top: 42.3px;
+  left: 0;
+  border-radius: 39.41px;
+  background-color: var(--lime-500);
+  width: 514px;
+  height: 316.9px;
+}
+.frameChild1,
+.frameIcon,
+.frameInner {
+  position: absolute;
+  top: 168px;
+  left: 0;
+  border-radius: 65.69px;
+  width: 535.2px;
+  height: 245.1px;
+  object-fit: contain;
+}
+.frameChild1,
+.frameIcon {
+  top: 100.5px;
+  left: 33px;
+  width: 531px;
+  height: 166.5px;
+}
+.frameChild1 {
+  top: 0.1px;
+  left: 74.9px;
+  width: 534.5px;
+  height: 202.5px;
+}
+.rectangleParent {
+  width: 512px;
+  position: relative;
+  border-radius: 39.41px;
+  height: 411px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--ffffff);
+  font-family: var(--body-regular);
+}

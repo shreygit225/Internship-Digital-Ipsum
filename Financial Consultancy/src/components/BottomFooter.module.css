@@ -1,0 +1,84 @@
+.markIcon {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.markIcon,
+.veenice {
+  position: relative;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-base);
+}
+.financeConsultingFirm {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 140%;
+}
+.paragraph,
+.paragraph1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraph1 {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.paragraph {
+  width: 306px;
+}
+.service {
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+.consultant,
+.service {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.footerMenu1,
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.navMenu {
+  justify-content: center;
+  gap: var(--gap-base);
+  font-size: var(--body-regular-size);
+}
+.footerMenu1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.footerMenu,
+.paragraphParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footerMenu {
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-lg);
+}
+.paragraphParent {
+  align-self: stretch;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--ffffff);
+  font-family: var(--font-satoshi);
+}
