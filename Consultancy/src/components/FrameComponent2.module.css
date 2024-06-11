@@ -1,0 +1,172 @@
+.anExtraordinaryCompany {
+  margin: 0;
+}
+.anExtraordinaryCompanyContainer {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 140%;
+  font-weight: 500;
+}
+.markIcon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.logotype {
+  position: relative;
+  line-height: 80%;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.fictionalCompanyLogonextflo {
+  width: 176.8px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs-4);
+}
+.markIcon1 {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.globalchartIcon {
+  width: 104.6px;
+  position: relative;
+  height: 16px;
+}
+.fictionalCompanyLogoglobalc {
+  width: 139.8px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs-2);
+}
+.marketsavy {
+  position: relative;
+  letter-spacing: -1.6px;
+  line-height: 90%;
+}
+.fictionalCompanyLogomarkets {
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs-4);
+  font-size: var(--font-size-6xl-6);
+}
+.logotypeIcon {
+  width: 106.2px;
+  position: relative;
+  height: 19.7px;
+}
+.fictionalCompanyLogobestban {
+  width: 138.4px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs-4);
+}
+.epicdevIcon {
+  width: 76.5px;
+  position: relative;
+  height: 20.8px;
+}
+.fictionalCompanyLogoepicdev {
+  width: 114.9px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs-4);
+}
+.starsupIcon {
+  width: 97.1px;
+  position: relative;
+  height: 25.6px;
+}
+.fictionalCompanyLogostartup {
+  width: 135.5px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs-4);
+}
+.payscaleIcon {
+  width: 82.3px;
+  position: relative;
+  height: 20px;
+}
+.fictionalCompanyLogopayscal {
+  width: 120.7px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs-4);
+}
+.teamtalkIcon {
+  width: 126.7px;
+  position: relative;
+  height: 13.5px;
+}
+.fictionalCompanyLogoteamtal,
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.fictionalCompanyLogoteamtal {
+  width: 165.1px;
+  height: 32px;
+  gap: var(--gap-6xs-4);
+}
+.logo {
+  gap: var(--gap-61xl);
+}
+.anExtraordinaryCompanyThatParent,
+.logoWrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.logoWrapper {
+  width: 812px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xs);
+  text-align: center;
+  font-size: var(--font-size-2xl-2);
+  font-family: var(--body-regular);
+}
+.anExtraordinaryCompanyThatParent {
+  width: 1440px;
+  background-color: var(--blue-900);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xl) var(--padding-101xl);
+  gap: var(--gap-141xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-satoshi);
+}

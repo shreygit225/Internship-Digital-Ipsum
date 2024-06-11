@@ -1,0 +1,67 @@
+.freeConsultant,
+.weOfferExpert {
+  align-self: stretch;
+  position: relative;
+}
+.freeConsultant {
+  letter-spacing: -0.01em;
+}
+.weOfferExpert {
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  font-weight: 500;
+}
+.freeConsultantParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.checkCircleIcon {
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.accessToExpertise {
+  position: relative;
+  line-height: 140%;
+}
+.checkCircleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+  gap: var(--gap-5xs);
+}
+.frameContainer,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  font-size: var(--font-size-lg);
+}
+.frameGroup,
+.frameParent {
+  gap: var(--gap-5xl);
+}
+.frameParent {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-darkslategray);
+  justify-content: center;
+  padding: var(--padding-29xl);
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--ffffff);
+  font-family: var(--font-satoshi);
+}
