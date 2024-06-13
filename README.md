@@ -7,3 +7,5 @@ Task 3 : Finance
 Task 4 : Marketing
 
 Task 5 : Business
+
+Task 6 : Logistic
