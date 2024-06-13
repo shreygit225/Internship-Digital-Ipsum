@@ -1,11 +1,11 @@
-Task 1 : Agency 
+Task 1 : Agency Webpage 
 
-Task 2 : Consultancy
+Task 2 : Consultancy Webpage 
 
-Task 3 : Finance
+Task 3 : Finance Webpage 
 
-Task 4 : Marketing
+Task 4 : Marketing Webpage 
 
-Task 5 : Business
+Task 5 : Business Webpage 
 
-Task 6 : Logistic
+Task 6 : Logistic Webpage 
